@@ -16,3 +16,6 @@ datasource: {
   },
 ```
 - To make updates to the DB structure/schema, make a migration afterwards in the terminal with `npx prisma migrate dev --name associated-message` and verify all is as expected with the studio `npx prisma studio`, which allows you to see a visual representation of the DB without having to use a vs extension if using another code editor.
+- `npm run dev` when cd inside the folder in the terminal to run the project.
+
+- Abandoned due to fucsing on active project and prisma issue

@@ -1,4 +1,4 @@
-import { prisma } from '$lib/db';
+import { prisma } from '$lib/server/prisma';
 
 export interface IDepartment {
     id: number;
